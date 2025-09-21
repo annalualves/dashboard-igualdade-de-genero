@@ -140,6 +140,8 @@ Requisitos Não Funcionais (RNFs):
 # V. Diagrama de Caso de Uso
 O diagrama de caso de uso a seguir ilustra as principais interações dos atores com o sistema.
 
+![Diagrama de Caso de Uso](docs/diagrama_caso_de_uso.png)
+
 Atores:
 
 - Usuário: Qualquer pessoa que acessa o dashboard para visualizar dados.
