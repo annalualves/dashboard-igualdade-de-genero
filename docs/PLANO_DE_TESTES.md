@@ -4,13 +4,13 @@ Este documento descreve os casos de teste para validar os Requisitos Funcionais 
 
 ---
 
-### RF01: Dashboard de Incidência (Mapa)
+### RF01: Dashboard de Incidência (Gráfico de Barras por Estado)
 
-| ID     | Descrição                                 | Passos para Execução                                | Resultado Esperado                                                              |
-| :----- | :---------------------------------------- | :-------------------------------------------------- | :------------------------------------------------------------------------------ |
-| CT01.1 | Visualizar o mapa do Brasil.              | 1. Abrir a página principal do dashboard.           | O componente do mapa deve ser renderizado, mostrando o contorno dos estados.    |
-| CT01.2 | Verificar o mapa de calor (Choropleth).   | 1. Abrir a página.<br>2. Observar o mapa.           | Os estados devem estar coloridos com intensidades diferentes (ex: SP mais escuro). |
-| CT01.3 | Verificar tooltip (mouse-over) no estado. | 1. Abrir a página.<br>2. Passar o mouse sobre um estado (ex: "MG"). | Um tooltip deve aparecer mostrando o nome do estado e o número de casos.         |
+| ID     | Descrição                                         | Passos para Execução                                      | Resultado Esperado                                                                    |
+| :----- | :------------------------------------------------ | :-------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| CT01.1 | Visualizar o gráfico de barras de incidência por estado. | 1. Abrir a página principal do dashboard.                 | O componente do gráfico de barras deve ser renderizado, mostrando os estados no eixo X e o número de casos no eixo Y. |
+| CT01.2 | Verificar os dados e ordenação.                   | 1. Observar o gráfico.<br>2. Verificar se os estados estão ordenados (ex: do maior para o menor número de casos). | As barras devem representar corretamente o volume de casos por estado, e a ordenação deve ser visível. |
+| CT01.3 | Verificar tooltip (mouse-over) na barra.          | 1. Passar o mouse sobre uma barra (ex: "SP").             | Um tooltip deve aparecer mostrando a sigla do estado e o número exato de casos.         |
 
 ### RF02: Gráficos de Tipologia (Pizza/Barra)
 
