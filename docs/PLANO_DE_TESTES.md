@@ -43,3 +43,12 @@ Este documento descreve os casos de teste para validar os Requisitos Funcionais 
 | CT05.1 | Visualizar os cartões de métricas.        | 1. Abrir a página.                                        | Os três cartões (Total de Casos, Crescimento, Média de Idade) devem ser exibidos. |
 | CT05.2 | Verificar carregamento dos dados.         | 1. Abrir a página e aguardar o carregamento.              | Os cartões devem exibir os números vindos da API (ex: "120.500") e não "..." ou "0". |
 | CT05.3 | Verificar formatação dos números.         | 1. Observar os cartões.                                   | Os números devem estar formatados corretamente (ex: `120.500` com ponto, `15.2%` com símbolo de porcentagem). |
+
+### Resultados da Execução dos Testes (Sprint TP5)
+
+| ID TC  | Data Execução | Status   | Observação |
+| :----- | :------------ | :------- | :--------- |
+| CT01.1 | 15/11/2025    | Aprovado | Gráfico de barras carregou corretamente com dados do SQLite. |
+| CT02.1 | 15/11/2025    | Aprovado | Tipologia exibida corretamente. |
+| CT04.2 | 15/11/2025    | Aprovado | **Teste de Filtro:** Ao selecionar "2022", o total de casos mudou para 34.000. Ao selecionar "2023", mudou para 40.500. Validado. |
+| CT05.1 | 15/11/2025    | Aprovado | Cards exibidos com sucesso. |
