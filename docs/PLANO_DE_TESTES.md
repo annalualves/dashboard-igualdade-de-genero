@@ -62,8 +62,8 @@ Execução completa de todos os fluxos com a aplicação integrada ao Banco de D
 
 | ID TC  | Data Execução | Responsável | Status   | Resultado Observado |
 | :----- | :------------ | :---------- | :------- | :------------------ |
-| CT01.1 | 23/11/2025    | [Seu Nome]  | Aprovado | Gráfico de barras por estado renderizado corretamente. |
-| CT02.1 | 23/11/2025    | [Seu Nome]  | Aprovado | Gráfico de pizza exibe as categorias vindas do banco. |
-| CT03.1 | 23/11/2025    | [Seu Nome]  | Aprovado | Gráfico de linha mostra a evolução temporal corretamente. |
-| CT04.2 | 23/11/2025    | [Seu Nome]  | Aprovado | **Filtros Funcionais:** A troca de ano atualiza KPI, Barras e Pizza instantaneamente. |
-| CT05.2 | 23/11/2025    | [Seu Nome]  | Aprovado | KPIs refletem a soma exata dos dados no banco SQLite. |
+| CT01.1 | 23/11/2025    | [Anna Luiza]  | Aprovado | Gráfico de barras por estado renderizado corretamente. |
+| CT02.1 | 23/11/2025    | [Anna Luiza]  | Aprovado | Gráfico de pizza exibe as categorias vindas do banco. |
+| CT03.1 | 23/11/2025    | [Anna Luiza]  | Aprovado | Gráfico de linha mostra a evolução temporal corretamente. |
+| CT04.2 | 23/11/2025    | [Anna Luiza]  | Aprovado | **Filtros Funcionais:** A troca de ano atualiza KPI, Barras e Pizza instantaneamente. |
+| CT05.2 | 23/11/2025    | [Anna Luiza]  | Aprovado | KPIs refletem a soma exata dos dados no banco SQLite. |
