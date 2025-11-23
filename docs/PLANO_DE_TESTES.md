@@ -52,3 +52,18 @@ Este documento descreve os casos de teste para validar os Requisitos Funcionais 
 | CT02.1 | 15/11/2025    | Aprovado | Tipologia exibida corretamente. |
 | CT04.2 | 15/11/2025    | Aprovado | **Teste de Filtro:** Ao selecionar "2022", o total de casos mudou para 34.000. Ao selecionar "2023", mudou para 40.500. Validado. |
 | CT05.1 | 15/11/2025    | Aprovado | Cards exibidos com sucesso. |
+
+
+---
+
+## 3. Validação Final (Entrega TP6)
+
+Execução completa de todos os fluxos com a aplicação integrada ao Banco de Dados SQLite.
+
+| ID TC  | Data Execução | Responsável | Status   | Resultado Observado |
+| :----- | :------------ | :---------- | :------- | :------------------ |
+| CT01.1 | 23/11/2025    | [Seu Nome]  | Aprovado | Gráfico de barras por estado renderizado corretamente. |
+| CT02.1 | 23/11/2025    | [Seu Nome]  | Aprovado | Gráfico de pizza exibe as categorias vindas do banco. |
+| CT03.1 | 23/11/2025    | [Seu Nome]  | Aprovado | Gráfico de linha mostra a evolução temporal corretamente. |
+| CT04.2 | 23/11/2025    | [Seu Nome]  | Aprovado | **Filtros Funcionais:** A troca de ano atualiza KPI, Barras e Pizza instantaneamente. |
+| CT05.2 | 23/11/2025    | [Seu Nome]  | Aprovado | KPIs refletem a soma exata dos dados no banco SQLite. |
